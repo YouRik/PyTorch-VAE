@@ -1,9 +1,9 @@
 import torch
-from models import BaseVAE
+from vae.models import BaseVAE
 from torch import nn
 from torch.nn import functional as F
 from torch import distributions as dist
-from .types_ import *
+from vae.models.types_ import *
 
 
 class SWAE(BaseVAE):
